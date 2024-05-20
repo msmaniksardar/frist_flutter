@@ -32,7 +32,7 @@ class _HomePage extends State<HomePage> {
     return const SafeArea(
         child: Scaffold(
       body: Center(
-        child: Text("Hello World"),
+        child: Text("Manik"),
       ),
     ));
   }
