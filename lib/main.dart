@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
+import 'package:my_first_app/greeting_app.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,26 +15,9 @@ class MyApp extends StatelessWidget {
       title: "My App",
       theme:
           ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink)),
-      home: HomePage(),
+      home: GreetingApp(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
-  @override
-  State<HomePage> createState() => _HomePage();
-}
-
-class _HomePage extends State<HomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return const SafeArea(
-        child: Scaffold(
-      body: Center(
-        child: Text("Manik"),
-      ),
-    ));
-  }
-}
