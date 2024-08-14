@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
       title: "My App",
       theme:
           ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink)),
+      // this homePage use for
       home: HomePage(),
+      // This is to run Greeting
       // home: GreetingApp(),
 
       debugShowCheckedModeBanner: false,
