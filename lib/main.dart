@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
       theme:
           ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink)),
       home: HomePage(),
+      // home: GreetingApp(),
+
       debugShowCheckedModeBanner: false,
     );
   }
